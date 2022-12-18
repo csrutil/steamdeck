@@ -4,6 +4,10 @@ Here are some snippets that I did on my steam deck.
 
 ***⚠️⚠️⚠️I will not be responsible for any loss or damage***
 
+## Telegram
+
+Please join Telegram [Join Telegram](https://t.me/hackintash), if you have any questions
+
 ![steamdeck](https://i.imgur.com/2zdn2AI.png)
 
 ## Prepare
