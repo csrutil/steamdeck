@@ -161,7 +161,7 @@ Feel free to [Buy Me a Coffee](https://www.buymeacoffee.com/csrutil)
   Tot:             704   2664  18829
   ```
 
-## Snippets
+## Snippets(REBOOT AFTER MODIFIED)
 
 Journald log file size to 50MB
 
