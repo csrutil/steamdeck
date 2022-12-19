@@ -160,3 +160,31 @@ Feel free to [Buy Me a Coffee](https://www.buymeacoffee.com/csrutil)
   Avr:             679   2437  16609  |              728   2891  21049
   Tot:             704   2664  18829
   ```
+
+## Snippets
+
+Journald log file size to 50MB
+
+  ```bash
+  steamos-readonly disable
+
+  cp /etc/systemd/journald.conf ~/Documents/
+  cp /etc/default/grub ~/Documents/
+
+  sudo sed -i '/SystemMaxUse/d' /etc/systemd/journald.conf
+  sudo echo "SystemMaxUse=50M" >> /etc/systemd/journald.conf
+  ```
+
+Swap
+
+  ```bash
+  sudo sed -i 's/100/1/g' /etc/sysctl.d/swappiness.conf
+  ```
+
+Mitigations OFF
+
+  ```bash
+  sudo sed -i 's/GRUB_CMDLINE_LINUX_DEFAULT="[^"]*/& mitigations=off/' /etc/default/grub
+  sudo update-grub
+  ```
+
