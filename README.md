@@ -166,7 +166,7 @@ Feel free to [Buy Me a Coffee](https://www.buymeacoffee.com/csrutil)
 Journald log file size to 50MB
 
   ```bash
-  steamos-readonly disable
+  sudo steamos-readonly disable
 
   cp /etc/systemd/journald.conf ~/Documents/
   cp /etc/default/grub ~/Documents/
