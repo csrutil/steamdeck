@@ -104,7 +104,7 @@ Feel free to [Buy Me a Coffee](https://www.buymeacoffee.com/csrutil)
   ```bash
   nano /etc/default/grub
 
-  GRUB_CMDLINE_LINUX_DEFAULT="loglevel=3 quiet splash plymouth.ignore-serial-consoles module_blacklist=tpm amd_iommu=off amdgpu.gttsize=8128 spi_amd.speed_dev=1 audit=0 fbcon=vc:4-6 fbcon=rotate:1 mitigations=off"
+  GRUB_CMDLINE_LINUX_DEFAULT="loglevel=3 quiet splash plymouth.ignore-serial-consoles module_blacklist=tpm amd_iommu=off amdgpu.gttsize=8128 spi_amd.speed_dev=1 audit=0 fbcon=vc:4-6 fbcon=rotate:1 mitigations=off nowatchdog nmi_watchdog=0"
   ```
 
 - **Generate a new grub2 config file**
